@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_below="@id/imageView"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="
+Formerly known as Mkopo Rahisi, Tala has managed to establish itself as one of the most trusted loan mobile apps in Kenya. They pride themselves on providing loans in the shortest time possible; 5 minutes. They provide loans up to Ksh 50,000. It’s the second most download Loan app on google play." />
+
+
+</RelativeLayout>
